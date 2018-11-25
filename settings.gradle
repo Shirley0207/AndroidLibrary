@@ -1,1 +1,1 @@
-include ':app', 'animatedfloatexpandablelistview'
+include ':app', ':animatedfloatexpandablelistview', ':breadcrumb'
