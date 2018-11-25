@@ -1,1 +1,2 @@
-include ':app', ':animatedfloatexpandablelistview', ':breadcrumb'
+include ':app', ':animatedfloatexpandablelistview', ':breadcrumb', ':buttongroup', ':roundimage',
+        ':searchfilter', ':selectitem', ':slidemenu', ':tabbutton', ':tabpage', ':wordgrouporderview'

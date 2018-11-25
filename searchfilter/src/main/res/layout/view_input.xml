@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网点名称"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_primary_size"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_border"
+        android:hint="输入网点名称进行筛选"
+        android:textSize="@dimen/text_secondary_size"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

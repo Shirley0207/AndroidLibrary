@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultTextColor">#8A000000</color>
+    <color name="black">#000000</color>
+    <color name="bisque">#FFE4C4</color>
+    <color name="navajoWhite">#FFDEAD</color> <!-- 纳瓦霍白 -->
+    <color name="pink">#ffc0cb</color>
+    <color name="orange">#ffa500</color>
+    <color name="lightSalmon">#FFA07A</color> <!-- 	浅鲜肉(鲑鱼)色 -->
+    <color name="lightCoral">#F08080</color> <!-- 淡珊瑚色 -->
+    <color name="orangered">#ff4500</color>
+    <color name="indianRed">#CD5C5C</color>
+    <color name="plum">	#DDA0DD</color>
+    <color name="maroon">#B03060</color>
+</resources>

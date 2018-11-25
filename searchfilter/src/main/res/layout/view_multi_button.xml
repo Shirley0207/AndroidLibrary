@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_primary_size"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout
+            android:id="@+id/layout_open"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/tv_chosen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="全部"
+                android:layout_marginRight="5dp"
+                android:gravity="right|center_vertical"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/text_secondary_size"
+                android:lines="1"
+                android:ellipsize="end"/>
+
+            <ImageView
+                android:id="@+id/iv_switch"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/collapse"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.shirley.searchfilter.MultiButtonGridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:listSelector="@color/transparent"
+        android:verticalSpacing="10dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

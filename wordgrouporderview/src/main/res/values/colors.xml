@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="whiteSmoke">#F5F5F5</color>
+    <color name="phoneBg">#f6f6f6</color>
+    <color name="lightBlue">#0099CC</color>
+</resources>

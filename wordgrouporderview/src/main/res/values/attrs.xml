@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textSize" format="dimension" />
+    <declare-styleable name="IndexBar">
+        <attr name="textSize" />
+        <attr name="themeColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="WordGroupOrderView">
+        <attr name="needRealIndex" format="boolean" />
+    </declare-styleable>
+</resources>

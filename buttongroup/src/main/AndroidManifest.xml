@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shirley.android.buttongroup" >
+
+    <!-- 访问网络的权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 文件读取的权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 向SD卡中创建或者删除的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+</manifest>
