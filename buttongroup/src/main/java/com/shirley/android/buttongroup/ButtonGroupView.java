@@ -123,11 +123,13 @@ public class ButtonGroupView extends GridView {
         // 判断当前image是否存在
         File[] files = file.listFiles();
         boolean exist = false;
-        for (File f : files) {
-            if (f.getName().indexOf(data.get(position).getImgName()) >= 0) {
-                // 已存在此文件
-                exist = true;
-                break;
+        if (files != null) {
+            for (File f : files) {
+                if (f.getName().indexOf(data.get(position).getImgName()) >= 0) {
+                    // 已存在此文件
+                    exist = true;
+                    break;
+                }
             }
         }
 
